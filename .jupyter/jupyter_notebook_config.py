@@ -1,0 +1,6 @@
+from notebook.auth import passwd
+c = get_config()
+c.NotebookApp.password = passwd("@Welcome2024")
+c.NotebookApp.open_browser = False
+c.NotebookApp.ip = '0.0.0.0'
+c.NotebookApp.port = 8888
